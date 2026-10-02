@@ -1,0 +1,5 @@
+^\.github$
+^\.gitignore$
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.DS_Store$

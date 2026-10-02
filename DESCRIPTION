@@ -1,0 +1,36 @@
+Package: rapidsvy
+Type: Package
+Title: Rapid Design-Based Estimation for Complex Surveys
+Version: 0.1.0
+Authors@R: person("Ahmad Watsiq", "Maula", email = "ahmad.watsiq.m@mail.ugm.ac.id", role = c("aut", "cre"))
+Description: Taylor linearisation variance estimation for stratified cluster
+    samples, computed for every domain in a single multithreaded pass in C++.
+    Results match the 'survey' package (svymean, svytotal, svyratio,
+    svyquantile, svyciprop, svychisq, svyglm) for one-stage
+    with-replacement designs, through a 'dplyr' style interface similar to
+    'srvyr'.
+License: GPL (>= 2)
+URL: https://github.com/wmaula/rapidsvy
+BugReports: https://github.com/wmaula/rapidsvy/issues
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports:
+    Rcpp,
+    rlang,
+    vctrs,
+    tibble,
+    dplyr,
+    tidyselect,
+    generics,
+    stats,
+    parallel
+LinkingTo: Rcpp
+Suggests:
+    survey,
+    srvyr,
+    testthat (>= 3.0.0),
+    bench,
+    haven
+SystemRequirements: C++17
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
