@@ -165,3 +165,11 @@ Hasil tidak bergantung pada jumlah thread.
 `tests/testthat/` membandingkan setiap fungsi dengan `survey` pada data
 simulasi yang memuat strata dengan satu PSU, nilai hilang, domain, fpc, dan
 `nest = TRUE`. Benchmark data BPJS ada di `inst/bench/bench_bpjs.R`.
+
+## Sitasi dan lisensi
+
+Sitasi: `citation("rapidsvy")`.
+
+Lisensi GPL (>= 2), sama dengan package `survey`. Beberapa rumus (antara lain
+penyesuaian Rao Scott di `fs_chisq()`) mengikuti implementasi `survey` agar
+hasilnya identik. Teks lisensi ada di [LICENSE.md](LICENSE.md).
