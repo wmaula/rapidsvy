@@ -172,4 +172,4 @@ Sitasi: `citation("rapidsvy")`.
 
 Lisensi GPL (>= 2), sama dengan package `survey`. Beberapa rumus (antara lain
 penyesuaian Rao Scott di `fs_chisq()`) mengikuti implementasi `survey` agar
-hasilnya identik. Teks lisensi ada di [LICENSE.md](LICENSE.md).
+hasilnya identik. Teks lisensi ada di [LICENSE](LICENSE).
